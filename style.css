@@ -9,15 +9,9 @@ Solve each dice seperately and then move onto the next.
   box-sizing: border-box;
 }
 
-html, body {
-  height: 100%;
-}
-
-
+html,
 body {
-  font-family: 'Open Sans', sans-serif;
-  background: linear-gradient(top, #222, #333);
-  /*Add some your code here.*/
+  height: 100%;
 }
 
 /*The [attribute$=value] selector matches every element whose attribute value ends with a specified value.*/
@@ -30,10 +24,7 @@ body {
   height: 104px;
   object-fit: contain;
 
-  box-shadow:
-    inset 0 5px white,
-    inset 0 -5px #bbb,
-    inset 5px 0 #d7d7d7,
+  box-shadow: inset 0 5px white, inset 0 -5px #bbb, inset 5px 0 #d7d7d7,
     inset -5px 0 #d7d7d7;
 
   border-radius: 10%;
@@ -50,3 +41,10 @@ body {
   box-shadow: inset 0 3px #111, inset 0 -3px #555;
 }
 
+/* ADD CODE UNDER THIS COMMENT */
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background: linear-gradient(top, #222, #333);
+  /*Add some your code here.*/
+}
